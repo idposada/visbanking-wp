@@ -3,8 +3,8 @@ Wordpress Custom Template <br>
 CSS: Maerialize
 
 Required Plugins:<br>
-ACF<br>
-CPT<br> <br>
+ACF <a href=""> Get Here </a><br>
+CPT <a href=""> Get Here </a> <br> <br>
 
 <strong> Autor: </strong><br>
 Ivan Dario Posada
