@@ -207,6 +207,71 @@
       <h2>Featured News</h2>
     </div>
 
+    <div class="row">
+
+      <div class="col m4">
+
+        <div class="featured-post">
+          <div class="featured-post-img col m6">
+            <img src="<?php bloginfo('template_url'); ?>/img/news1.png" alt="">
+          </div>
+          <div class="post-info col m6">
+
+
+          <div class="featured-post-tit">
+            Asset Information
+          </div>
+          <div class="home-learn-more">
+            <p>Read More... </p>
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col m4">
+
+        <div class="featured-post">
+          <div class="featured-post-img col m6">
+            <img src="<?php bloginfo('template_url'); ?>/img/news1.png" alt="">
+          </div>
+          <div class="post-info col m6">
+
+
+          <div class="featured-post-tit">
+            Asset Information
+          </div>
+          <div class="home-learn-more">
+            <p>Read More... </p>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col m4">
+
+        <div class="featured-post">
+          <div class="featured-post-img col m6">
+            <img src="<?php bloginfo('template_url'); ?>/img/news1.png" alt="">
+          </div>
+          <div class="post-info col m6">
+
+
+          <div class="featured-post-tit">
+            Asset Information
+          </div>
+          <div class="home-learn-more">
+            <p>Read More... </p>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
 
 
 
