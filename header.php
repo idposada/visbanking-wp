@@ -12,7 +12,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 </head>
-
 <body>
   <header>
     <div class="navbar-fixed">
@@ -31,18 +30,13 @@
       </nav>
     </div>
 
-
     <ul class="sidenav" id="mobile-demo">
     <img src="<?php bloginfo('template_url'); ?>/img/logo-visbanking.png" alt="Visbanking Logo">
+    <hr>
     <li><a href="#">Services</a></li>
     <li><a href="#">Pricing</a></li>
     <li><a href="#">The Company</a></li>
     <li><a href="#">Insights</a></li>
     <li><a href="#">Contact Us</a></li>
     </ul>
-
-
-
-
-
   </header>
