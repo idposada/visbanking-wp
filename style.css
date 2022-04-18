@@ -7,6 +7,12 @@ body, h1, h2, h3, h4, h5, h6  button a{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+::placeholder {
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+}
+
 nav{
    background-color: #ffffff;
    padding-left: 40px;
@@ -35,20 +41,32 @@ main{
 
 h1{
   text-transform: uppercase;
-  font-size: 37px !important;
+  font-size: 3em !important;
   font-weight: bold !important;
+  margin-bottom: 1px;
+}
+
+h2{
+  font-size: 2.5em !important;
 }
 
 .home-subtitle{
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 26px;
   color: #616161;
+  margin-top: 1px;
 }
 
 .card{
   padding: 20px;
+  border-radius: 30px !important;
+  box-shadow: 5px 5px 13px #5e5d5d !important;
 
+}
+
+.vis-card{
+  border-radius: 30px;
 }
 
 .card-title{
@@ -65,3 +83,93 @@ h1{
   color: #015193 !important;
   text-transform: capitalize !important;
 }
+
+hr{
+  color: #128AF9;
+
+}
+
+.service-card{
+  padding: 20px;
+box-shadow: 5px 5px 49px #999 !important;
+margin: 20px;
+height: 452px;
+}
+
+.service-card-title{
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #128AF9;
+padding: 10px;
+}
+
+.service-card-text{
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+padding: 10px;
+}
+
+.newsletter-home{
+  background-color: #128AF9;
+  padding: 30px;
+  text-align: center;
+}
+
+.news-title{
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 10px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.news-text{
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.home-form-fields{
+  display: flex;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+input[type="text"]{
+  background: #FFFFFF !important;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25) !important;
+border-radius: 15px !important;
+width: 50% !important;
+margin: 15px !important;
+}
+
+input[type="email"]{
+  background: #FFFFFF !important;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25) !important;
+border-radius: 15px !important;
+width: 50% !important;
+margin: 15px !important;
+}
+
+input[type="submit"]{
+
+  background: #015193 !important;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 15px !important;
+color: #ffffff !important;
