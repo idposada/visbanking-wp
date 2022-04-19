@@ -7,6 +7,11 @@ body, h1, h2, h3, h4, h5, h6  button a{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.text-center{
+  text-align: center;
+}
+
+
 ::placeholder {
   color: #000000;
   font-size: 16px;
@@ -259,4 +264,13 @@ font-size: 18px;
  font-weight: bold;
  text-shadow: 2px 2px 15px #110202;
  text-decoration: underline;
+}
+
+
+/* SERVICES */
+
+.product-img  img{
+  width: 100%;
+padding: 10px;
+box-shadow: 4px 4px 9px #686767;
 }
