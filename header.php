@@ -10,8 +10,9 @@
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title><?php echo esc_html( get_bloginfo()); ?> - <?php echo esc_html( get_the_title()); ?></title>
 
-</head>
+<?php wp_head(); ?></head>
 <body>
   <header>
     <div class="navbar-fixed">

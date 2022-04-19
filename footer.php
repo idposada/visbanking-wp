@@ -1,6 +1,5 @@
 
-
-  </body>
+<?php wp_footer();?>
 <footer>
 
 <div class="row footer-bg">
