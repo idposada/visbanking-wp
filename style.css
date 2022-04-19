@@ -201,5 +201,49 @@ text-transform: capitalize !important;
 .featured-post{
   padding: 10px;
 border-radius: 30px !important;
-box-shadow: 5px 5px 13px #5e5d5d !important;
+box-shadow: 2px 2px 8px #5e5d5d !important;
+margin: 20px;
+}
+
+.featured-post:hover {
+  box-shadow: 1px 1px 15px #5e5d5d !important;
+  padding: 5px;
+}
+
+
+/****************** FOOTER ******************/
+
+footer{
+  color: white;
+}
+
+.footer-bg{
+background-color: #024668;
+padding: 15px;
+}
+
+.footer-logo{
+  width: 13%;
+}
+
+.line-footer{
+  color: #ffffff;
+}
+
+.footer-title{
+  color: white;
+font-size: 28px;
+font-weight: bold;
+}
+
+.footer-text{
+  color: white;
+font-size: 18px;
+}
+
+.footer-heading{
+  font-size: 18px;
+ font-weight: bold;
+ text-shadow: 2px 2px 15px #110202;
+ text-decoration: underline;
 }
