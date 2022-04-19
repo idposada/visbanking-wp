@@ -24,6 +24,7 @@
             <li><a href="#">The Company</a></li>
             <li><a href="#">Insights</a></li>
             <li><a href="#">Contact Us</a></li>
+            <li><a href="#" class="waves-effect waves-light btn boton-login">LOG IN</a></li>
           </ul>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -38,5 +39,6 @@
     <li><a href="#">The Company</a></li>
     <li><a href="#">Insights</a></li>
     <li><a href="#">Contact Us</a></li>
+    <li><a href="#" class="waves-effect waves-light btn boton-login">LOG IN</a></li>
     </ul>
   </header>
