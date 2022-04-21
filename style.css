@@ -274,3 +274,69 @@ font-size: 18px;
 padding: 10px;
 box-shadow: 4px 4px 9px #686767;
 }
+
+/* PRICING */
+
+.plan-col{
+  text-align: center;
+border: 2px solid #128AF9;
+padding: 2%;
+margin: 20px;
+width: 22% !important;
+
+}
+
+.plan-name{
+  font-size: 31px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+}
+
+.plan-price{
+  font-size: 25px;
+color: #128af9;
+text-align: center;
+}
+
+.plan-details{
+  line-height: 4em;
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 15px;
+}
+
+.plan-button-featured{
+  text-align: center;
+}
+
+.plan-button button{
+  background: #015193;
+border-radius: 15px;
+color: #fff;
+padding: 10px 51px 10px 43px;
+margin: 20px;
+cursor: pointer;
+border: 1px solid #015193;
+box-shadow: 3px 3px 3px #3e6f98;
+font-weight: bold;
+}
+
+.plan-button-featured button{
+  background: #ffffff;
+border-radius: 15px;
+color: #015193;
+padding: 10px 51px 10px 43px;
+margin: 20px;
+cursor: pointer;
+border: 1px solid #ffffff;
+box-shadow: 3px 3px 3px #3e6f98;
+font-weight: bold;
+}
+
+.plan-featured{
+  background-color: #128af9;
+color: #fff;
+border: 2px solid #128AF9;
+margin: 20px;
+}
