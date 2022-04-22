@@ -45,6 +45,16 @@ nav{
   font-size: 18px;
 }
 
+#nav-mobile li a:hover{
+border-bottom: 2px solid #2569a9;
+font-weight: bold;
+}
+
+#nav-mobile li a:active{
+border-bottom: 2px solid #2569a9;
+font-weight: bold;
+}
+
 .sidenav-trigger{
   color: #000 !important;
   font-size: 29px !important;
@@ -339,4 +349,103 @@ font-weight: bold;
 color: #fff;
 border: 2px solid #128AF9;
 margin: 20px;
+}
+
+
+/* INSIGHTS */
+
+.featured-post-insights{
+  border: 1x solid #000000;
+  box-shadow: 3px 3px 3px #000000;
+  padding: 20px;
+  background-color: #2569a9;
+  color: white;
+}
+
+.featured-post-image img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.featured-pots-info{
+  padding-top: 20px !important;
+}
+
+.post-date{
+  line-height: 73px;
+font-weight: bold;
+}
+
+.readmore-button{
+  background-color: white;
+color: #2569a9;
+padding: 12px;
+border-radius: 15px;
+box-shadow: 3px 3px 20px #000;
+font-weight: bold;
+border: 0px;
+}
+
+.featured-pots-title{
+  font-size: 28px;
+font-weight: bold;
+line-height: 1.5em;
+}
+
+.post-image img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.post-title{
+  font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.post-readmore{
+  font-size: 20px;
+color: #2569a9;
+font-weight: bold;
+}
+
+.post-card{
+  padding: 20px;
+box-shadow: 4px 4px 4px #767474;
+border-radius: 30px;
+border: 1px solid #767474;
+}
+
+.lastest-post{
+  margin: 20px;
+background-color: #f4f4f4;
+padding: 10px;
+}
+
+.lastest-post:hover {
+  box-shadow: 1px 1px 15px #5e5d5d !important;
+  padding: 5px;
+}
+
+.tab-vis a{
+  border: 1px solid #2569a9;
+  margin: 0px 15px 0px 15px;
+  border-radius: 15px;
+  color: #2569a9 !important;
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+ .tab-vis .active {
+  background-color: #2569a9 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+.tab-vis a:hover{
+  background-color: #2569a9 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 18px !important;
 }
