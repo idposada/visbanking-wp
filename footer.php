@@ -84,6 +84,8 @@
      var instances = M.Sidenav.init(elems, 'right');
    });
 
+   var el = document.querySelector('.tabs');
+       var instance = M.Tabs.init(el, {});
   </script>
 
 </footer>
