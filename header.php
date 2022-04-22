@@ -18,12 +18,13 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-        <img src="<?php bloginfo('template_url'); ?>/img/logo-visbanking.png" alt="Visbanking Logo">
+        <a href="<?php echo get_home_url(); ?>">
+        <img src="<?php bloginfo('template_url'); ?>/img/logo-visbanking.png" alt="Visbanking Logo"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#">Services</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">The Company</a></li>
-            <li><a href="#">Insights</a></li>
+            <li><a href="<?php echo get_home_url(); ?>/insights">Insights</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#" class="waves-effect waves-light btn boton-login">LOG IN</a></li>
           </ul>
