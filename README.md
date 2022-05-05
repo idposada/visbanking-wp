@@ -2,7 +2,7 @@
 <h2> Wordpress Custom Template</h2> <br>
 <h3> Componets </h3>
 
-<strong>CSS:</strong> <a href="https://materializecss.com/"> Maerialize </a>
+<strong>CSS:</strong> <a href="https://materializecss.com/" target="_blank"> Maerialize </a>
 
 Required Plugins:<br>
 <strong>ACF </strong> <a href="#"> Get Here </a><br>
